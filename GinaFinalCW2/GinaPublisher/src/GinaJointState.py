@@ -12,7 +12,7 @@ def talker():
     
     pub = rospy.Publisher('joint_states', JointState, queue_size=10)
 
-    rospy.init_node('lin_joint_state_publisher')
+    rospy.init_node('Gina_joint_state_publisher')
     rate = rospy.Rate(10) # 10hz
 
 ####### Joint 1:
